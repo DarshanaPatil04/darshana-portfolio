@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/darshana-portfolio/static/css/main.e0f0dd53.css",
+    "main.js": "/darshana-portfolio/static/js/main.de78e2e3.js",
+    "static/js/787.9d520f90.chunk.js": "/darshana-portfolio/static/js/787.9d520f90.chunk.js",
+    "static/media/devicon.svg?iehcku": "/darshana-portfolio/static/media/devicon.de33ff67547800466a48.svg",
+    "static/media/devicon.woff?iehcku": "/darshana-portfolio/static/media/devicon.25bdb9cbf8e5f9b4dde9.woff",
+    "static/media/devicon.ttf?iehcku": "/darshana-portfolio/static/media/devicon.161b6f3376d6ce5c517d.ttf",
+    "static/media/workspace.jpg": "/darshana-portfolio/static/media/workspace.70cc80331a05d28d5938.jpg",
+    "static/media/Darsh.png": "/darshana-portfolio/static/media/Darsh.adddfd9c3627b05e9c02.png",
+    "static/media/Crypto-Tracker.jpg": "/darshana-portfolio/static/media/Crypto-Tracker.f3f7b982b511818e27b7.jpg",
+    "static/media/Employee_Management.jpg": "/darshana-portfolio/static/media/Employee_Management.a2095b35c717d760a83d.jpg",
+    "index.html": "/darshana-portfolio/index.html",
+    "main.e0f0dd53.css.map": "/darshana-portfolio/static/css/main.e0f0dd53.css.map",
+    "main.de78e2e3.js.map": "/darshana-portfolio/static/js/main.de78e2e3.js.map",
+    "787.9d520f90.chunk.js.map": "/darshana-portfolio/static/js/787.9d520f90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0f0dd53.css",
+    "static/js/main.de78e2e3.js"
+  ]
+}
