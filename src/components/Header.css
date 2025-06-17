@@ -1,0 +1,91 @@
+.headerContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: var(--hero-bg);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.607);
+  flex-wrap: wrap; /* ✅ prevent content overflow */
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: nowrap;
+}
+
+.logo span {
+  color: #ffffff;
+  background: #ffffff30;
+  padding: 0.15rem 0.6rem;
+  margin-left: 6px;
+  border-radius: 6px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  overflow-x: auto; /* ✅ allows horizontal scroll if needed */
+}
+
+.navLinks ul {
+  list-style: none;
+  display: flex;
+  gap: 2.2rem;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; /* ✅ prevent horizontal overflow */
+}
+
+.navLinks li a {
+  font-size: 1.1rem; /* ✅ increased for readability */
+  font-weight: 600;
+  padding: 0.6rem 1.2rem; /* more click area */
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  white-space: nowrap; /* prevents wrapping */
+}
+
+.navLinks li a:hover,
+.navLinks li a.active {
+  background-color: #ffffff;
+  color: var(--hero-bg);
+  transform: translateY(-2px);
+}
+
+/* ✅ Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .navLinks {
+    justify-content: center;
+    width: 100%;
+    overflow-x: visible;
+    margin-top: 0.5rem;
+  }
+
+  .navLinks ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navLinks li a {
+    font-size: 1.2rem; /* slightly larger on mobile */
+    padding: 0.8rem 1.5rem;
+  }
+}

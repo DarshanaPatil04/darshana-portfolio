@@ -1,0 +1,75 @@
+.teckStackSection {
+  background-color: #618b80;
+  padding: 5rem 3rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.teckStackHeader {
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.teckStackHeader::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 60px;
+  background-color: #aef1e2;
+  margin: 10px auto 0;
+  border-radius: 2px;
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 60px;
+    opacity: 1;
+  }
+}
+
+.icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.icon-grid a {
+  font-size: 4rem;
+  color: #eaf4f4;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-grid a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.icon-grid i {
+  font-size: 4.2rem;
+  color: #eaf4f4;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .teckStackHeader {
+    font-size: 2rem;
+  }
+
+  .icon-grid a {
+    font-size: 3rem;
+  }
+
+  .icon-grid i {
+    font-size: 3.2rem;
+  }
+}
